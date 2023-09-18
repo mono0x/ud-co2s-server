@@ -13,4 +13,5 @@ RUN npm install
 # Bundle app source
 COPY . .
 EXPOSE 8080
-CMD [ "npm", "run", "serve" ]
+ENTRYPOINT [ "npm", "run", "serve", "--" ]
+CMD [ "-p", "8080" ]
