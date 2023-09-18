@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "EditorConfig.EditorConfig",
-    "denoland.vscode-deno"
+    "denoland.vscode-deno",
+    "go.golang"
   ]
 }
