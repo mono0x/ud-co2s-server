@@ -90,7 +90,7 @@ const promise = new Promise((resolve, reject) => {
       if (match) {
         const co2 = parseInt(match.groups.co2, 10);
         const rawHumidity = parseFloat(match.groups.humidity);
-        const rawTemperature = parseFloat(match.groups.humidity);
+        const rawTemperature = parseFloat(match.groups.temperature);
         const temperature = correctTemperature(rawTemperature);
         const humidity = correctHumidity(
           rawHumidity,
